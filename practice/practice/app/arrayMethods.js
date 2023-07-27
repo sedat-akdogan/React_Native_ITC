@@ -66,5 +66,3 @@ function myVehicle({ type, color, brand, model }) {
     const message = 'My ' + type + ' is a ' + color + ' ' + brand + ' ' + model + '.';
 }
 // the object properties do not have to be declared in a specific order.
-
-
