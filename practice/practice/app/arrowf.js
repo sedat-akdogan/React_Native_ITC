@@ -41,3 +41,20 @@ document.getElementById("btn").addEventListener("click", myheader.changeColor);
 // Complete the array method that will allow you to run a function on each item in the array and return a new array.
 const myList = myArray.map((item) => <p>{item}</p>);
 
+
+// Variables
+// If you use var outside of a function, it belongs to the global scope.
+
+// If you use var inside of a function, it belongs to that function.
+
+// If you use var inside of a block, i.e. a for loop, the variable is still available outside of that block.
+
+// var has a function scope, not a block scope.
+
+
+// let is the block scoped version of var, and is limited to the block (or expression) where it is defined.
+
+// If you use let inside of a block, i.e. a for loop, the variable is only available inside of that loop.
+
+// let has a block scope.
+
