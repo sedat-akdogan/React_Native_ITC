@@ -25,4 +25,3 @@ const updateMyVehicle = {
 
 const myUpdatedVehicles = {...myVehicle, ...updateMyVehicle};
 // Notice the properties that did not match were combined, but the property that did match, color, was overwritten by the last object that was passed, updateMyVehicle. The resulting color is now yellow.
-
